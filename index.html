@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stationary Shop - Home</title>
+    <!--Link to External CSS-->
+    <link rel="stylesheet" href="style.css"> 
+    <!--Box Icons-->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <a href="#" class="logo">Yume<span>.</span></a>
+        <div id="menu-icon">
+            <i class="bx bx-menu"></i>
+        </div>
+
+        <ul class="navbar" id="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#product">Products</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Welcome To</span>
+            <h1>Yume Stationery</h1><br><br>
+            <h3>"Write Your Dreams with Yume."</h3>
+        </div>
+    </section>
+
+
+    <!--Link to custom Js-->
+    <script src="main.js"></script>
+
+    <!--About us section start here-->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image-container">
+                <video width="100%" height="auto" controls autoplay loop muted>
+                    <source src="vidaboutyume.mp4" type="video/mp4">
+                </video>
+                <button onclick="toggleMute()">Toggle Mute</button>
+            </div>
+            <div class="content-container">
+                <h1 class="main-heading">ABOUT US</h1>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Meaning of Yume</h2>
+                        <p>
+                            "Yume" means "dream" in Japanese. At Yume Stationery, we believe that every dream begins with a single step, and our stationery is designed to help you take that step.
+                        </p>
+                    </div>
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                        <p>
+                            Founded in 2023, Yume Stationery started as a small passion project, born out of a love for all things beautiful and creative. We wanted to create a space where people could find high-quality, unique, and charming stationery that sparks joy and inspiration. Whether you're an artist, writer, student, or professional, we aim to provide you with the tools to bring your dreams to life on paper.
+                        </p>
+                </div>
+                <div class="about-text">
+                    <h2>Our Mission</h2>
+                    <p>
+                        Our mission is simple: to inspire creativity and make the mundane magical.
+                    </p>
+                    <p>We believe that the right stationery can transform 
+                        an ordinary day into an extraordinary one.
+                    </p>
+                    <p> Every product we offer is chosen with love and care,
+                        designed to help you express yourself and make your everyday moments special.
+                    </p>   
+                </div>
+                <div class="about-text">
+                    <h2>Why Choose Yume Stationery?</h2>
+                    <p> Quality and Uniqueness: We pride ourselves on offering products that are both high-quality and distinctive.
+                        Customer-Centric: Your satisfaction is our top priority. We strive to provide exceptional customer service and a seamless shopping experience.
+                        Inspiration and Creativity: We are passionate about creativity and aim to inspire our customers to dream big and create more. 
+                    </p>
+                </div>
+            </div>
+            <p class="signature">With love,<br>Yume Team</p>
+        </div>
+    </section>
+    <!-- About us section ends here -->
+
+    <!--Product Section start here-->
+    <section class="product" id="product">
+        <h3 class="heading"> 
+            <span> Our Product </span> 
+        </h3>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Notebook</td>
+                        <td>A5 size, 100 pages, lined</td>
+                        <td>RM5.99</td>
+                        <td style="color:green">In Stock</td><!--Inline CSS-->
+                    </tr>
+                    <tr>
+                        <td>Pen</td>
+                        <td>Blue ink, gel pen</td>
+                        <td>RM1.99</td>
+                        <td style="color: red">Out of Stock</td><!--Inline CSS-->
+                    </tr>
+                    <tr>
+                        <td>Sticky Notes</td>
+                        <td>3x3 inches, 100 sheets</td>
+                        <td>RM4.50</td>
+                        <td style="color:green">In Stock</td><!--Inline CSS-->
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h2 class="new-arrivals-heading">New Arrival Items!!!</h2>
+      
+        <div class="product-content">
+             <!--Product 1-->
+            <div class="product-item">
+                <img src="product1.jpg" alt="Vintage Journaling Binder">
+                <h4> VINTAGE JOURNALING CARD</h4>
+                <h5> RM 30.99</h5>
+                <div class="top">
+                    <p>hot</p>
+                </div>
+                <div class="bbtn">
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+
+            <!--Product 2-->
+            <div class="product-item">
+                <img src="product2.jpg" alt="A5/B5 Transparent Binder">
+                <h4> A5/B5 TRANSPARENT BINDER</h4>
+                <h5> RM 25.99</h5>
+                <div class="top">
+                    <p>hot</p>
+                </div>
+                <div class="bbtn">
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+
+            <!--Product 3-->
+            <div class="product-item">
+                <img src="product5.jpg" alt="Clear Pencil Case Big Capacity">
+                <h4> CLEAR PENCIL CASE BIG CAPACITY</h4>
+                <h5> RM 19.99</h5>
+                <div class="top">
+                    <p>hot</p>
+                </div>
+                <div class="bbtn">
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+
+            <!--Product 4-->
+            <div class="product-item">
+                <img src="product4.jpg" alt="Muji Planner 2024">
+                <h4> MUJI PLANNER 2024</h4>
+                <h5> RM 23.99</h5>
+                <div class="top">
+                    <p>hot</p>
+                </div>
+                <div class="bbtn">
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <!--Product 5-->
+            <div class="product-item">
+                <img src="product6.jpg" alt="Transparent Stickey Notes">
+                <h4> TRANSPARENT STICKY NOTES</h4>
+                <h5> RM 7.99</h5>
+                <div class="top">
+                    <p>hot</p>
+                </div>
+                <div class="bbtn">
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <!--Product 6-->
+            <div class="product-item">
+                <img src="product7.jpg" alt="Desk Organizer">
+                <h4> DESK ORGANIZER</h4>
+                <h5> RM 25.99</h5>
+                <div class="top">
+                    <p>hot</p>
+                </div>
+                <div class="bbtn">
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Product section ends here-->
+
+    <!-- Blog content start here -->
+    <section class="blog" id="blog">
+        <h1 class="heading"><span>Blog</span></h1>
+        <div class="blog-container">
+            <div class="blog-post">
+                <img src="blog1.jpg" alt="Choosing the Perfect Stationery">
+                <h2>5 Tips for Choosing the Perfect Stationery</h2>
+                <p>Choosing the perfect stationery can be a daunting task, but these five tips will help you make the right choice...</p>
+                <a href="blog-post1.html" class="read-more">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="blog3.jpg" alt="Organize Your Desk">
+                <h2>How to Organize Your Desk for Maximum Productivity</h2>
+                <p>A well-organized desk can significantly improve your productivity. Here are some tips to help you get started...</p>
+                <a href="blog-post2.html" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!--Blog content ends here-->
+
+    <!--Contact content start here-->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Submit</button><br><br>
+        </form>
+        <div id="confirmationMessage" style="display: none;"></div> <!-- Hidden by default -->
+    </section>
+    <!--Contact content ends here-->
+
+    <footer>
+        <p>&copy; 2024 My Stationary Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
